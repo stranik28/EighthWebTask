@@ -14,7 +14,7 @@ $(document).ready(function (){
 function PopUpShow(){
     $("#pop-up").show();
     CheckParams();
-    history.pushState('popUp', null, '/pop-up');
+    history.pushState('#popUp', null, '#pop-up');
     $(window).on('popstate', hidePopup);
 }
 
