@@ -1,0 +1,38 @@
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="style.css"/>
+    <meta charset="UTF-8"/>
+    <title>Pop up form</title>
+</head>
+<body>
+<button class="a-container" onclick="PopUpShow()">
+    Fill a form
+</button>
+<div class="b-container" id="pop-up">
+    <div class="pop-upContent">
+        <form>
+            <label>
+                Name:<br/>
+                <input name="field-name"
+                    value="input your name"/>
+            </label><br/>
+            <label>
+                Email:<br/>
+                <input name="field-email"
+                    value="test@email.com"
+                    type="email">
+            </label><br/>
+            <label>
+                Your message:<br/>
+                <textarea name="field-name-2">Wright there</textarea>
+            </label><br/><br/>
+            <label id="check"><input type="checkbox"
+                          name="check-1" />familiarized with the contract</label><br/>
+        </form>
+        <button onclick="PopUpHide()" id="send">Send</button>
+    </div>
+</div>
+</body>
+</html>
