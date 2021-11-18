@@ -20,9 +20,9 @@ body{
     top:0;
 }
 .b-container .pop-upContent{
-    margin:300px auto;
+    margin:100px auto;
     width:400px;
-    height: 370px;
+    height: 300px;
     padding:10px;
     background-color: skyblue;
     border-radius:5px;
